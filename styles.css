@@ -54,6 +54,9 @@ nav ul a img {
 }
 .nav-wrapper .title {
   font-size: 1.4rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 .nav-wrapper .btn-flat {
   background-color: #4285f4 !important;
@@ -62,6 +65,7 @@ nav ul a img {
   height: 30px;
   line-height: 30px;
   width: 94px;
+  margin-left: -105px;
 }
 .nav-2,
 .nav-2 i {

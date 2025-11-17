@@ -1,25 +1,56 @@
-## Overview
+# Drive Demo — Static UI Playground
 
-This project showcases a static web page designed to mimic the Google Drive landing page. The goal is to leverage HTML and CSS to enhance skills in web design and user interface (UI) development. The design incorporates Materialize CSS framework for responsive and modern styling.
+A polished, single-page static front-end that reproduces the look-and-feel of a cloud-drive landing page for learning HTML and CSS. This repository is a small, focused UI exercise: no backend, no authentication — just markup and styles.
 
-## Technologies Used
+Why this project exists
+- Practice responsive layout and component composition using plain HTML/CSS and Materialize.
+- Explore how icons, spacing and visual hierarchy create a modern product-like interface.
+- Provide a simple starter template you can fork and adapt for UI experiments.
 
-- **HTML**: The structure of the web page is built using HTML5.
-- **CSS**: Styling is done using CSS, with additional styles provided by the Materialize CSS framework.
-- **Materialize CSS**: A modern responsive front-end framework based on Material Design.
+## Quick preview
+
+Open `index.html` in your browser to preview the layout. The project intentionally uses neutral icons and labels — it is not affiliated with Google (see Disclaimer).
 
 ## Features
 
-- **Responsive Design**: The layout adjusts to different screen sizes, ensuring usability on both desktop and mobile devices.
-- **Navigation Bar**: A fixed navigation bar with search functionality and user profile access.
-- **Side Navigation**: A sidebar for easy access to different sections of Google Drive.
-- **Folder Cards**: Display of folders with icons for a clean and organized look.
+- Modern responsive header and sidebar layout
+- Search input and utility icons in the navigation
+- Folder-style cards and simple grid layout for content
+- Small, easy-to-read styles in `styles.css` for quick customization
 
-## Learning Outcomes
+## Run locally (super quick)
 
-- **Semantic HTML**: Use of semantic elements to improve accessibility and SEO.
-- **Responsive Layout**: Implementation of a responsive design using Materialize CSS classes to ensure the page looks good on all devices.
-- **User Experience (UX)**: Focus on creating an intuitive navigation experience with clear icons and labels.
-- **Material Design Principles**: Adherence to Material Design guidelines for a modern and visually appealing interface.
-- **Custom Styles**: Ability to add custom styles in styles.css to further personalize the design.
-- **Icons**: Utilization of Material Icons for a consistent and recognizable iconography.
+From the project root (Windows PowerShell):
+```powershell
+# start a tiny static server and open http://localhost:8000
+python -m http.server 8000
+```
+
+Or just double-click `index.html` to open it directly in your browser.
+
+## Customize
+
+- Change the navbar label or icon in `index.html`.
+- Tweak colors, spacing and layout in `styles.css`.
+- Replace Materialize with another CSS framework or remove it entirely for a pure-CSS challenge.
+
+## Learning outcomes you can expect
+
+- Build and structure semantic HTML for a small app shell
+- Style a responsive navbar and sidebar layout
+- Use Material Icons and a lightweight CSS framework
+- Practice spacing, alignment and visual hierarchy
+
+## Contributing
+
+This is a tiny learning repo — contributions are welcome. Typical things to contribute:
+
+- Improve accessibility (aria labels, keyboard navigation)
+- Add small UI interactions (vanilla JS) like menu toggles or a mock file viewer
+- Provide alternative color themes or a dark mode
+
+To contribute: fork, make a small PR with one focused change, and include screenshots if the change is visual.
+
+## Disclaimer
+
+This project is an unofficial UI demo created for learning and design practice. It is not affiliated with, endorsed by, or a product of Google. The repository was updated to remove Google trademarks and logos to avoid impersonation; the site uses neutral icons and labels instead.
